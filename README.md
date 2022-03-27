@@ -43,22 +43,22 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 
 <h3>Список команд </h3> 
 
-```!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam -O H3K27ac.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H2azAlnRep1.bam -O H2AFZ.bam  <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k36me3AlnRep1.bam -O H3K36me3.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me1AlnRep1.bam -O H3K4me1.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me2AlnRep1.bam -O H3K4me2.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me3AlnRep1.bam -O H3K4me3.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k79me2AlnRep1.bam -O H3K79me2.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k09acAlnRep1.bam -O H3K9ac.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k09me3AlnRep1.bam -O H3K9me3.bam <br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H4k20me1AlnRep1.bam -O H4K20me1.bam<br>
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746ControlAlnRep1.bam -O control.bam <br>
-!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/fix-colab-gpu.sh && bash fix-colab-gpu.sh <br>
-!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/colab_build.sh && bash colab_build.sh <br>
-!java --list-modules | grep "jdk.jshell" <br>
-! wget http://compbio.mit.edu/ChromHMM/ChromHMM.zip <br>
-!unzip /content/ChromHMM.zip <br>
-!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData <br>
-!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 <br>```
+```!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam -O H3K27ac.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H2azAlnRep1.bam -O H2AFZ.bam  
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k36me3AlnRep1.bam -O H3K36me3.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me1AlnRep1.bam -O H3K4me1.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me2AlnRep1.bam -O H3K4me2.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me3AlnRep1.bam -O H3K4me3.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k79me2AlnRep1.bam -O H3K79me2.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k09acAlnRep1.bam -O H3K9ac.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k09me3AlnRep1.bam -O H3K9me3.bam 
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H4k20me1AlnRep1.bam -O H4K20me1.bam
+!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746ControlAlnRep1.bam -O control.bam 
+!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/fix-colab-gpu.sh && bash fix-colab-gpu.sh 
+!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/colab_build.sh && bash colab_build.sh 
+!java --list-modules | grep "jdk.jshell" 
+! wget http://compbio.mit.edu/ChromHMM/ChromHMM.zip 
+!unzip /content/ChromHMM.zip 
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData 
+!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 ```
 
