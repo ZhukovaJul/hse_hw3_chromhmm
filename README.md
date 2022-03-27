@@ -41,6 +41,9 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 | 9   | Heterochromatin | Встречается в H2az, H3k4me2. laminB1lads. Малый сигнал |![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/5f671fc9a1ba2ee02b9a9126170f94e389aba89d/img/9.PNG)|
 | 10   | Enhancer | Встречается в H3k9me3, H3k36me3,H3k79me2.  RefSeqTES/RefSeqExon. Средний сигнал  |![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/5f671fc9a1ba2ee02b9a9126170f94e389aba89d/img/10.PNG)|
 
+<h3>Бонус </h3> 
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/5f671fc9a1ba2ee02b9a9126170f94e389aba89d/img/bonus.PNG)
+
 <h3>Список команд </h3> 
 
 ```!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam -O H3K27ac.bam 
