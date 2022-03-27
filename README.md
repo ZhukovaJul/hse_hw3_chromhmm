@@ -60,5 +60,21 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 ! wget http://compbio.mit.edu/ChromHMM/ChromHMM.zip 
 !unzip /content/ChromHMM.zip 
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData 
-!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 ```
+!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 
+import pandas as pd
+df = pd.read_csv('dense.bed', encoding='utf-8', sep='\t', comment='t', header=None)
+header = ['chrom', 'chromStart', 'chromEnd', 'state', 'zero', 'dot', 'chromStart', 'chromEnd', 'rgb']
+df.columns = header[:len(df.columns)]
+df.loc[df.state == 1, 'state'] = '1_Transcribed'
+df.loc[df.state == 2, 'state'] = '2_Promoter'
+df.loc[df.state == 3, 'state'] = '3_Transcribed'
+df.loc[df.state == 4, 'state'] = '4_Enhancer'
+df.loc[df.state == 5, 'state'] = '5_Enhancer'
+df.loc[df.state == 6, 'state'] = '6_Heterochromatin'
+df.loc[df.state == 7, 'state'] = '7_Promoter'
+df.loc[df.state == 8, 'state'] = '8_Heterochromatin'
+df.loc[df.state == 9, 'state'] = '9_Heterochromatin'
+df.loc[df.state == 10, 'state'] = '10_Enhancer'
+df.to_csv('new_dense.bed', sep='\t', index=False, header=None)
+```
 
