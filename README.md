@@ -43,7 +43,7 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 
 <h3>Список команд </h3> 
 
-!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam -O H3K27ac.bam <br>
+```!wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam -O H3K27ac.bam <br>
 !wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H2azAlnRep1.bam -O H2AFZ.bam  <br>
 !wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k36me3AlnRep1.bam -O H3K36me3.bam <br>
 !wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k04me1AlnRep1.bam -O H3K4me1.bam <br>
@@ -60,5 +60,5 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 ! wget http://compbio.mit.edu/ChromHMM/ChromHMM.zip <br>
 !unzip /content/ChromHMM.zip <br>
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData <br>
-!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 <br>
+!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output 10 hg19 <br>```
 
