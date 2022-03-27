@@ -3,7 +3,7 @@
 <h3>Ссылка на google colab </h3> 
 https://colab.research.google.com/drive/1FxWtlQeg7V4jmm-MotaNYoZBBfVQEr67?usp=sharing <br>
 
-<h3>гистоновыe метки</h3> 
+<h3>Гистоновыe метки</h3> 
 H3K27aс: http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam <br>
 H2AFZ : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H2azAlnRep1.bam <br> 
 H3K36me3 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k36me3AlnRep1.bam <br>
