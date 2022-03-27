@@ -42,6 +42,7 @@ H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroa
 | 10   | Enhancer | Встречается в H3k9me3, H3k36me3,H3k79me2.  RefSeqTES/RefSeqExon. Средний сигнал  |![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/5f671fc9a1ba2ee02b9a9126170f94e389aba89d/img/10.PNG)|
 
 <h3>Бонус </h3> 
+
 ![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/9da6c02491fcce5506327c1b51966e689faf6e95/img/bonus.PNG)
 
 <h3>Список команд </h3> 
