@@ -16,7 +16,15 @@ H3K9me3 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroad
 H4K20me1 : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H4k20me1AlnRep1.bam <br>
 Контроль : http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746ControlAlnRep1.bam <br>
 
+<h3>Папка с выдачей ChromHMM - output</h3> 
 
+<h3>Картинки из выдачи ChromHMM</h3> 
+
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/a4d5cf021c87a3dbd8b05cafab3e5b32efd60a1d/output/Monocytes-CD14+_RO01746_10_RefSeqTES_neighborhood.png)
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/a4d5cf021c87a3dbd8b05cafab3e5b32efd60a1d/output/Monocytes-CD14+_RO01746_10_RefSeqTSS_neighborhood.png)
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/a4d5cf021c87a3dbd8b05cafab3e5b32efd60a1d/output/Monocytes-CD14+_RO01746_10_overlap.png)
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/a4d5cf021c87a3dbd8b05cafab3e5b32efd60a1d/output/emissions_10.png)
+![](https://github.com/ZhukovaJul/hse_hw3_chromhmm/blob/a4d5cf021c87a3dbd8b05cafab3e5b32efd60a1d/output/transitions_10.png)
 
 <h3> Эпигенетических типы </h3>
 
