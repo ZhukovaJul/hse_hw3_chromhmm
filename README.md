@@ -1,8 +1,7 @@
 # hse_hw3_chromhmm
 
 <h3>Ссылка на google colab </h3> 
-https://colab.research.google.com/drive/1FxWtlQeg7V4jmm-MotaNYoZBBfVQEr67?usp=sharing
-
+https://colab.research.google.com/drive/1FxWtlQeg7V4jmm-MotaNYoZBBfVQEr67?usp=sharing <br>
 
 H3K27ac: http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H3k27acAlnRep1.bam <br>
 H2AFZ: http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneMonocd14ro1746H2azAlnRep1.bam <br> 
